@@ -1,22 +1,256 @@
-.App {
-  text-align: center;
+.header-menu {
+    opacity: 0.2;
+    margin-top: 1%;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: gray;
+    position: fixed;
+    top: 0;
+    border: solid 2px white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
+.header-menu a {
+    text-decoration: none;
+
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-menu a:hover {
+    box-shadow: 0 0 10px snow;
+    border-radius: 100px;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid white;
+    transition: 0.3s;
 }
 
-.App-link {
-  color: #09d3ac;
+.table {
+    width: 100%;
+    top: 0;
+    background-color: gray;
 }
+
+.table h2 {
+    text-align: center;
+    padding-top: 80px;
+    color: black;
+}
+
+.table ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.userListTitle {
+    font-size: 22px;
+    font-family: "Book Antiqua";
+    border-radius: 100px;
+    height: 70px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.userListTitle li:hover {
+    color: black;
+    border-bottom: black solid 2px;
+}
+.userList{
+    width: 100%;
+}
+.userList ul {
+    height: 50px;
+    border-bottom: solid 1px white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.userList input {
+    width: 70px;
+    cursor: pointer;
+    background-color: inherit;
+    border: 0;
+    text-align: center;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 15px;
+    color: white;
+}
+
+.userList input:focus {
+    outline: none;
+    box-shadow: 0 0 10px snow;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: cell;
+}
+
+.userList:hover ul li input {
+    color: black;
+    transition: 1s;
+}
+
+.btn {
+    background-color: inherit;
+    border: gray 2px solid;
+    outline: none;
+}
+
+.btn:active {
+    box-shadow: 0 0 10px snow;
+}
+
+.Faculty {
+    padding-top: 10%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #47B90B;
+    text-align: center;
+    height: 1000px;
+    color: #FFB516;
+    font-size: 33px;
+}
+
+.Group {
+    padding-top: 10%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #FFB516;
+    height: 1000px;
+    color: #47B90B;
+    text-align: center;
+    font-size: 33px;
+}
+
+.Students {
+    padding-top: 10%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1000px;
+}
+
+.Dashboard {
+    background-color: #66019C;
+    padding-top: 10%;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    font-size: 33px;
+}
+
+.facultyButton {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #FFB516;
+    color: #47B90B;
+    border: #47B90B 2px solid;
+    outline: none;
+    cursor: pointer;
+}
+
+.facultyButton:active {
+    box-shadow: 0 0 10px snow;
+    font-size: 21px;
+}
+.dataButton button {
+    cursor: pointer;
+}
+.dataButton{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectOption {
+    margin: 0 auto;
+    border: #FFB516 dashed 3px;
+    background-color: #47B90B;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 22px;
+    color: #FFB516;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.facultyButton {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #FFB516;
+    color: #47B90B;
+    border: #47B90B 2px solid;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
