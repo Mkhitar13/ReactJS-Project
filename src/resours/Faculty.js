@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
 function Faculty() {
+
     const [count, setCount] = useState(13);
     
     useEffect(() => {
@@ -9,7 +10,7 @@ function Faculty() {
 
     return (
         <div className="Faculty">
-            <p>Счёт : {count}</p>
+            <p> Счёт : {count} </p>
             <p>
                 <button className='facultyButton' onClick={() => setCount(setCount => setCount - 1)}> - </button>
                 <button className='facultyButton' onClick={() => setCount(setCount => setCount + 1)}> + </button>
