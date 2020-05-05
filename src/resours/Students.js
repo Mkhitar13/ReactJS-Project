@@ -24,7 +24,7 @@ function Students() {
                     <li>Position</li>
                     <li>Office</li>
                     <li>Age</li>
-                    <li>Date</li>D
+                    <li>Date</li>
                     <li>Salary</li>
                     <li> </li>
                 </ul>
